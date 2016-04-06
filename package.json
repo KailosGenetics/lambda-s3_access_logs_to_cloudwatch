@@ -1,0 +1,36 @@
+{
+  "name": "lambda-s3_access_logs_to_cloudwatch",
+  "version": "1.0.0",
+  "description": "Consumes S3 Bucket Access logs and pushes them to CloudWatch",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aegixx/lambda-s3_access_logs_to_cloudwatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aegixx/lambda-s3_access_logs_to_cloudwatch/issues"
+  },
+  "homepage": "https://github.com/aegixx/lambda-s3_access_logs_to_cloudwatch",
+  "dependencies": {
+    "aws-sdk": "^2.3.1",
+    "byline": "^4.2.1",
+    "cloudwatch-buddy": "aegixx/cloudwatch-buddy"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "logs",
+    "logging",
+    "lambda",
+    "cloudwatchmetrics",
+    "cloudwatchlogs",
+    "amazon"
+    "s3"
+  ],
+  "author": "Bryan Stone",
+  "license": "MIT"
+}
