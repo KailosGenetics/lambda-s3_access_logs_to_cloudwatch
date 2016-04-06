@@ -28,7 +28,7 @@
     "lambda",
     "cloudwatchmetrics",
     "cloudwatchlogs",
-    "amazon"
+    "amazon",
     "s3"
   ],
   "author": "Bryan Stone",
